@@ -30,8 +30,8 @@ async function testCASLogin() {
 
         console.log("\n2. Envoi des identifiants (POST)...");
         const params = hiddenParams; // Start with hidden params
-        params.append('username', 'alvaz1');
-        params.append('password', 'Alexandre+08');
+        params.append('username', 'VOTRE_IDENTIFIANT');
+        params.append('password', 'VOTRE_MOT_DE_PASSE');
 
         // Configuration pour ne pas suivre automatiquement la redirection 302
         const postResp = await axios.post('https://ent.uca.fr/cas/login?service=https://ent.uca.fr/', params.toString(), {
