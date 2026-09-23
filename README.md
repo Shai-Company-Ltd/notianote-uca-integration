@@ -11,6 +11,8 @@ L'idée est simple : permettre aux étudiants de l'UCA de se connecter à NotiaN
 - Leurs notes (via Pégase / Apogée)
 - Leurs cours en ligne (via Moodle UCA)
 
+Vous pouvez également tester directement l'intégration sur **[notianote.fr](https://notianote.fr)**.
+
 ---
 
 ## 🔒 Le Problème : le CAS de l'UCA
